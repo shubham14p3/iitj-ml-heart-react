@@ -3,6 +3,7 @@ import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
 import { useLocation, useNavigate } from 'react-router-dom';
 import ChartView from '../components/ChartView';
+import Footer from './Footer';
 
 function ChartPage() {
     const location = useLocation();
@@ -19,7 +20,7 @@ function ChartPage() {
         link.click();
     };
 
-    return (
+    return (<>
         <Box
             sx={{
                 display: 'flex',
@@ -74,6 +75,8 @@ function ChartPage() {
                 </Button>
             </Box>
         </Box>
+        <Footer/>
+    </>
     );
 }
 
