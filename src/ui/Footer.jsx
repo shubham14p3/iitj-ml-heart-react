@@ -44,7 +44,7 @@ function Footer() {
             <Link href="https://linkedin.com/in/niraj-bhagchandani-218280201" target="_blank">
               <LinkedIn />
             </Link>
-            {/* <Link href="https://facebook.com/nirajbhagchandani" target="_blank">
+            {/* <Link href="https://facebook.com/nirajbhagchandani" target="_blank" >
               <Facebook />
             </Link> */}
           </Box>
