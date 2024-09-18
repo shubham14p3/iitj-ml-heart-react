@@ -10,13 +10,13 @@ function ChartPage() {
     const navigate = useNavigate();
     const chartData = location.state?.chartData;
     console.log('chartData', chartData)
-    // Function to download result as a JSON file
+    // Function to download result as a JSON file 
     const handleDownload = () => {
-        const resultData = JSON.stringify(chartData, null, 2); // Convert data to JSON format
+        const resultData = JSON.stringify(chartData, null, 2); // Convert data to JSON format 
         const blob = new Blob([resultData], { type: 'application/json' });
         const link = document.createElement('a');
         link.href = URL.createObjectURL(blob);
-        link.download = 'result.json'; // File name
+        link.download = 'result.json'; // File name 
         link.click();
     };
 
