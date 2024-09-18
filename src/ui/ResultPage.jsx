@@ -72,6 +72,7 @@ function ResultPage() {
           {result && (
             <Box sx={{ mt: 3 }}>
               {/* Display each metric using MetricDisplay */}
+              <MetricDisplay label="Prediction Score" value={result.Prediction} description="1 means patient may be suffering from heart risk and 0 means patient may be normal." />
               <MetricDisplay label="Accuracy" value={result.Accuracy} description="The proportion of correct predictions made by the model." />
               <MetricDisplay label="F1 Score" value={result['F1 Score']} description="The harmonic mean of precision and recall, measuring overall performance." />
               <MetricDisplay label="Log Loss" value={result['Log Loss']} description="Logarithmic loss representing how close the model's predictions were to the true labels." />
