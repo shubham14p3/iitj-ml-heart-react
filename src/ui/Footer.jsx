@@ -60,10 +60,9 @@ function Footer() {
             <Link href="https://linkedin.com/in/bhavesh-arora-11b0a319b" target="_blank">
               <LinkedIn />
             </Link>
-            {/* <Link href="https://facebook.com/bhavesharora" target="_blank">
+             <Link href="https://www.instagram.com/bhavesharora02/" target="_blank">
               <Facebook />
-            </Link> */}
-          </Box>
+            </Link>          </Box>
         </Grid>
 
         <Grid item>
