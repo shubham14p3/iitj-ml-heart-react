@@ -5,9 +5,9 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import MetricDisplay from '../components/MetricDisplay';
 
 function ResultPage() {
-  const location = useLocation();
-  const navigate = useNavigate();
-  const result = location.state?.result;
+  const location = useLocation(); 
+  const navigate = useNavigate(); 
+  const result = location.state?.result; 
 
   const chartData = {
     labels: ['Accuracy', 'F1 Score', 'Log Loss', 'Matthews Corr Coef', 'Precision', 'ROC AUC', 'Sensitivity', 'Specificity'],
