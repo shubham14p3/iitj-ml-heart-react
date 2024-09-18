@@ -7,9 +7,9 @@ import { predict } from '../services/api';
 import Footer from '../ui/Footer';
 
 const featureLabels = [
-  { name: "age", label: "Age (in years)", hint: "Age in years" },
-  { name: "sex", label: "Sex (1: Male, 0: Female)", hint: "1: Male, 0: Female" },
-  { name: "chest_pain_type", label: "Chest Pain Type", hint: "0-3 types of chest pain" },
+  { name: "age", label: "Age (in years)", hint: "Age in years" }, 
+  { name: "sex", label: "Sex (1: Male, 0: Female)", hint: "1: Male, 0: Female" }, 
+  { name: "chest_pain_type", label: "Chest Pain Type", hint: "0-3 types of chest pain" }, 
   { name: "resting_blood_pressure", label: "Resting Blood Pressure (mmHg)", hint: "Resting blood pressure in mmHg" },
   { name: "cholesterol", label: "Cholesterol (mg/dl)", hint: "Serum cholesterol in mg/dl" },
   { name: "fasting_blood_sugar", label: "Fasting Blood Sugar (1 if >120 mg/dl, 0 otherwise)", hint: "1 if >120 mg/dl, 0 otherwise" },
